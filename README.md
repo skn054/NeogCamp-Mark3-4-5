@@ -3,11 +3,11 @@
 This is personal website which showcase all the projects of Neogcamp Level0.
 
 
-## [LIVE](https://vanshsharma-neogcamp.vercel.app/)
+## [LIVE](https://portfolioskn054.netlify.app/)
 
 ---
 
-![Demo](./Images/portfolio-project.png)
+![Demo](./Images/Mark3.PNG)
 
 ---
 
@@ -20,7 +20,3 @@ This is personal website which showcase all the projects of Neogcamp Level0.
 
 ---
 
-Contact :
-
-- [Twitter](https://twitter.com/Vanshsh2701)
-- [Linkedin](https://www.linkedin.com/in/vanshsharma27/)
