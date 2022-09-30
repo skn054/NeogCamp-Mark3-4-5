@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/efe28aa7fd.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <title>Sai Kiran || Home</title>
+    </head>
+
+    <!-- 
+  - Create bookmark links of all the sections
+    -->
+
+    <body>
+        <!-- Nav bar -->
+        <nav>
+            <ul>
+                <li id="home"><a href="./index.html">Home</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a class="active" href="./blogs.html">Blogs</a></li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="blog-1">
+            <div class="blog-header">
+                <h1>Arrow Functions in JavaScript</h1>
+                
+            </div >
+        <br>
+            <div class="blog-content">
+                <p>Arrow functions are similar to anonymous functions in Java i.e functions which do not have any name</p>
+            </br>
+                <p>   Example of Arrow functions : </p>
+                <p style="text-align: center; font-weight: bold;">   // Regular Functions     </p> 
+                <p style="text-align: center; font-weight: bold;">                                   function hello() {     
+                                                          return 'hello world'  
+                                                        }
+                </p>                  
+            </br>
+                <p style="text-align: center; font-weight: bold;">        // Arrow Functions  </p>
+                <p style="text-align: center; font-weight: bold;">        let hello = () => 'hello world'  </p>
+                
+            </br>
+
+                <p> Both functions work in the same way, even though there syntax is different. The () brackets represents
+                    the syntax for arguments. 
+
+
+                </p>
+
+                <p> 
+                    We can skip the empty brackets if there is only one argument present in he function, like below:
+                    
+                </p>
+
+            </br>
+                <p style="text-align:center; font-weight: bold;">
+                    var cube = num => num * num * num;
+                </p>
+            </br>
+                <p>
+                    In one line arrow functions we can skip the return statement. We can also declare multiline arrow 
+                    function by using culy {} brackets.
+                </p>
+            </br>
+                <p style="text-align:center; font-weight: bold;">
+                    var cube = num =>{
+                        return num * num * num 
+                        }
+                </p>
+            </br>
+            
+            <p>
+                Arrow functions with parameters:
+            </p>
+        </br>
+            <p style="text-align:center; font-weight: bold;">
+                var hello = (value) => "hello" + val;
+            </p>
+         
+        </br>
+        <p>
+            Arrow functions with multiple parameters:
+        </p>
+    </br>
+        <p style="text-align:center; font-weight: bold;">
+            (p1, p2, ..., pn) => expression;
+        </p>
+            </div>
+        </div>
+    <br>
+            
+            
+       
+
+       
+
+       
+
+        <!-- Footer -->
+        <footer>
+            <h3 id="contact" class="footer-title">Contact me</h3>
+            <div class="footer-wrapper">
+                <a href="https://twitter.com/skn054" target="_blank"
+                    ><i class="fab fa-twitter-square"></i>
+                </a>
+                <a href="https://github.com/skn054" target="_blank"
+                    ><i class="fab fa-github-square"></i
+                ></a>
+                <a
+                    href="https://www.linkedin.com/in/sai-kiran-888b41220/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="mailto: skn054@gmail.com" target="_blank"
+                    ><i class="fas fa-envelope"></i
+                ></a>
+            </div>
+        </footer>
+    </body>
+</html>
