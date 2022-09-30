@@ -213,7 +213,7 @@ header {
 }
 
 .work-holder h3 {
-    font-size: 2rem;
+    font-size: x-large;
     font-weight: bold;
     text-align: center;
     /* color: #475569; */
@@ -222,12 +222,17 @@ header {
 }
 
 .work-holder p {
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
     font-weight: bolder;
+    font-size: medium;
     text-align: center;
     /* color: var(--light-color); */
     color: #c7d9e0;
     margin: 0;
+}
+
+.work-holder a{
+    font-size: small;
 }
 
 .work-holder article:hover {
